@@ -1,0 +1,72 @@
+
+.form__fields {
+    font-size: 18px;
+    color: #FFFFFF;
+    display: flex;
+
+    @media (max-width: $portrait) {
+      display: grid;
+      gap: 20px;
+    }
+}
+
+.form__container {
+    background-color: #DCDCDC;
+    padding: 70px;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+
+.form__fields textarea {
+    width: 70%;
+    border-radius: 8px;
+    height: 100px;
+}
+
+.form__user-email {
+    margin-bottom: 30px;
+}
+
+.form__user-email input {
+  border-radius: 8px;
+  border-bottom: #DCDCDC;
+}
+
+.form__button {
+    width: 83%;
+    border: none;
+    background-color: #808080;
+    border-radius: 8px;
+    margin-left: 50px;
+    height: 50px;
+    color: #FFFFFF;
+
+    @media (max-width: 542px) {
+      margin: 0 auto;
+    }
+
+
+}
+
+.form__text {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 10px;
+
+    @media (max-width: $portrait) {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+    }
+}
+
+.form__wrapper {
+
+  @media (max-width: $portrait) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}

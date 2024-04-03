@@ -1,0 +1,48 @@
+{
+  "name": "internship-2024",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host --open",
+    "test": "backstop test --config=pp.config.cjs",
+    "build": "vite build",
+    "preview": "vite preview --open",
+    "convert-rastr": "node convert-rastr.js",
+    "w3c": "html-validator source --quiet",
+    "linthtml": "linthtml source",
+    "html-validate": "html-validate source/index.html",
+    "stylelint": "stylelint \"source/sass/**/*.scss\" --fix",
+    "lint-js": "eslint source/js --fix",
+    "ls-lint": "ls-lint",
+    "editorconfig": "editorconfig-cli"
+  },
+  "devDependencies": {
+    "@htmlacademy/editorconfig-cli": "^2.0.8",
+    "@linthtml/linthtml": "0.9.5",
+    "@ls-lint/ls-lint": "2.1.0",
+    "@spiriit/vite-plugin-svg-spritemap": "2.0.1",
+    "autoprefixer": "10.4.16",
+    "backstopjs": "6.2.2",
+    "cli-progress": "3.12.0",
+    "eslint": "8.55.0",
+    "eslint-config-htmlacademy": "^10.0.1",
+    "glob": "10.3.10",
+    "html-validate": "8.7.4",
+    "linthtml-config-htmlacademy": "^1.0.14",
+    "sass": "1.69.5",
+    "sharp": "0.33.0",
+    "stylelint": "16.0.2",
+    "stylelint-config-htmlacademy": "^3.0.2",
+    "stylelint-config-standard-scss": "12.0.0",
+    "stylelint-selector-bem-pattern": "3.0.1",
+    "svgo": "3.1.0",
+    "vite": "5.0.9",
+    "vite-plugin-image-optimizer": "1.1.7",
+    "vite-plugin-minify": "^1.5.2",
+    "w3c-html-validator": "1.6.1"
+  },
+  "dependencies": {
+    "swiper": "11.0.5"
+  }
+}

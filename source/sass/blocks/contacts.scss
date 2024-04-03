@@ -1,0 +1,17 @@
+.contacts__container {
+    display: grid;
+    text-align: center;
+    background-color: #A9A9A9;
+    padding: 70px;
+    gap: 20px 20px;
+
+    @media (max-width: $portrait) {
+      display: grid;
+      gap: 20px;
+      padding: 20px;
+    }
+}
+
+.contacts__container a {
+  color: #FFFFFF;
+}

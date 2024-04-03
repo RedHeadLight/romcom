@@ -1,0 +1,15 @@
+.partners__container {
+    background-color: #DCDCDC;
+    gap: 20px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 70px;
+    justify-items: center;
+
+
+    @media (max-width: $portrait) {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+}
