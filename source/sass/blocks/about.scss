@@ -33,3 +33,11 @@
       display: flow-root;
     }
 }
+
+.about__texts {
+  text-align: left;
+
+  @media (max-width: $portrait) {
+    text-align: center;
+  }
+}

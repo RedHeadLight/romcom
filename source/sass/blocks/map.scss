@@ -4,7 +4,8 @@
 }
 
 .map__contacts {
-  width: 24%;
+  width: 320px;
+  max-width: 90%;
   text-decoration: none;
   color: #000000;
   font-weight: 700;
@@ -26,4 +27,6 @@
 
 .map__container {
   position: relative;
+  padding: 0;
 }
+
