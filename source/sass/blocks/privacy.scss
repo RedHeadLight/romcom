@@ -1,0 +1,32 @@
+.privacy__container {
+  background-color: #36454F;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: $portrait) {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.privacy__container img {
+  width: 300px;
+  height: 300px;
+
+  @media (max-width: $mini) {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.privacy__container p {
+
+  @media (max-width: $portrait) {
+    width: 60%;
+    text-align: center;
+  }
+}

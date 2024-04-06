@@ -1,4 +1,32 @@
 .hero__container {
     text-align: center;
-    background-color: #DCDCDC;
+    background-color: #36454F;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-bottom: 120px;
+}
+
+.hero__container img {
+  width: 200px;
+  height: auto;
+  order: 2;
+  margin: 0 auto;
+}
+
+.hero__tagline {
+  width: 232px;
+  order: 0;
+  position: absolute;
+  top: 172px;
+  left: 300px;
+
+  @media (max-width: $portrait) {
+  top: 245px;
+  margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
+  }
 }

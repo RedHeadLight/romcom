@@ -3,6 +3,7 @@
     font-size: 18px;
     color: #FFFFFF;
     display: flex;
+    gap: 40px;
 
     @media (max-width: $portrait) {
       display: grid;
@@ -11,7 +12,7 @@
 }
 
 .form__container {
-    background-color: #DCDCDC;
+    background-color: #36454F;
     padding: 70px;
     text-align: center;
     display: grid;
@@ -24,8 +25,21 @@
     height: 100px;
 }
 
+.form__user-name {
+  margin-bottom: 30px;
+  display: grid;
+  justify-items: baseline;
+}
+
+.form__user-name input {
+  border-radius: 8px;
+  border-bottom: #DCDCDC;
+}
+
 .form__user-email {
     margin-bottom: 30px;
+    display: grid;
+    justify-items: baseline;
 }
 
 .form__user-email input {
@@ -34,24 +48,22 @@
 }
 
 .form__button {
-    width: 83%;
     border: none;
     background-color: #808080;
     border-radius: 8px;
-    margin-left: 50px;
     height: 50px;
     color: #FFFFFF;
 
     @media (max-width: 542px) {
       margin: 0 auto;
+      width: 100%;
     }
 
 
 }
 
 .form__text {
-    margin-bottom: 30px;
-    display: flex;
+    display: grid;
     gap: 10px;
 
     @media (max-width: $portrait) {
@@ -69,4 +81,14 @@
     flex-direction: column;
     align-items: flex-end;
   }
+}
+
+.message__wrapper {
+  display: grid;
+    justify-items: baseline;
+    width: 140%;
+
+    @media (max-width: $portrait) {
+      justify-items: center;
+    }
 }

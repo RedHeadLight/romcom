@@ -1,0 +1,24 @@
+.map iframe {
+  width: 100%;
+    filter: grayscale(1);
+}
+
+.map__contacts {
+  width: 20%;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+  position: absolute;
+  z-index: 2;
+  top: 17px;
+  left: 28px;
+}
+
+.map {
+  position: relative;
+}
+
+.map__contacts a {
+  color: #000000;
+  font-weight: 700;
+}

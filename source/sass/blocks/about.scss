@@ -1,23 +1,32 @@
 .about__container {
-    background-color: #A9A9A9;
-    padding: 30px;
+    background-color: #D0D0D0;
     text-align: center;
+    color: #000000;
+    padding: 10px 40px;
 }
 
-.about__bullets {
-    display: flex;
-    gap: 30px;
+.about__heading {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.about__wrapper img {
+  width: 300px;
+  height: 300px;
+
+  @media (max-width: $mini) {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.about__wrapper {
+  display: flex;
     justify-content: center;
+    gap: 80px;
+    align-items: center;
 
     @media (max-width: $portrait) {
-      display: grid;
-      gap: 20px;
+      display: flow-root;
     }
-}
-
-.about__bullet {
-    padding: 20px;
-    display: grid;
-    gap: 30px;
-    justify-items: center;
 }
