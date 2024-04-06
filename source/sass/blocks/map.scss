@@ -1,6 +1,7 @@
 .map iframe {
   width: 100%;
     filter: grayscale(1);
+    display: block;
 }
 
 .map__contacts {
@@ -26,7 +27,11 @@
 }
 
 .map__container {
-  position: relative;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
   padding: 0;
 }
 
