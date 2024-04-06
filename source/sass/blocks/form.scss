@@ -1,3 +1,6 @@
+.form {
+  background-color: #36454F;
+}
 
 .form__fields {
     font-size: 18px;
@@ -12,7 +15,6 @@
 }
 
 .form__container {
-    background-color: #36454F;
     padding: 70px;
     text-align: center;
     display: grid;
@@ -23,6 +25,7 @@
     width: 70%;
     border-radius: 8px;
     height: 100px;
+    resize: none;
 }
 
 .form__user-name {
@@ -53,6 +56,7 @@
     border-radius: 8px;
     height: 50px;
     color: #FFFFFF;
+    cursor: pointer;
 
     @media (max-width: 542px) {
       margin: 0 auto;

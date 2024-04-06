@@ -36,7 +36,7 @@
                 </div>
             </div>
         </section>
-        <section class="libretto__container">
+        <section class="libretto">
             <div class="libretto__container container">
               <div class="libretto__texts">
                 <h2 class="libretto__heading heading">Libretto
@@ -76,7 +76,7 @@
                           id="email"
                           name="user-email"
                           minlength="1"
-                          aria-label="user email field"
+                          aria-label="user email field" required
                         />
                   </div>
                   <div class="form__user-name">
@@ -86,14 +86,14 @@
                         id="name"
                         name="user-name"
                         minlength="1"
-                        aria-label="username field"
+                        aria-label="username field" required
                       />
                   </div>
                 </div>
                 <div class="form__text">
                   <div class="message__wrapper">
                     <label for="message">Your text</label>
-                    <textarea id="message" name="message"></textarea>
+                    <textarea id="message" name="message" required></textarea>
                   </div>
                   <button class="form__button" type="submit">
                     Send
@@ -103,14 +103,16 @@
             </div>
         </section>
         <section class="map">
-          <div class="map__contacts">
-                <a href="mailto:info@lifetour.com">info@puccini-capital.ae</a>
-                <a href="tel:+79837454545">+49 (0)176 70236580</a>
-            <p class="map__address">Leibnizstr. 58, 10629 Berlin</p>
+          <div class="map__container">
+            <div class="map__contacts">
+              <a href="mailto:info@lifetour.com">info@puccini-capital.ae</a>
+              <a href="tel:+79837454545">+49 (0)176 70236580</a>
+          <p class="map__address">Leibnizstr. 58, 10629 Berlin</p>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3021048.963867011!2d7.045528157542518!3d42.3160128108032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1712422384046!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </section>
           </div>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3021048.963867011!2d7.045528157542518!3d42.3160128108032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1712422384046!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </section>
-    </main>
-    <footer>
+      </main>
+    <footer class="footer">
         <div class="footer__container container">
             <p>Puccini Capital, 2024</p>
         </div>

@@ -4,7 +4,7 @@
 }
 
 .map__contacts {
-  width: 20%;
+  width: 24%;
   text-decoration: none;
   color: #000000;
   font-weight: 700;
@@ -21,4 +21,9 @@
 .map__contacts a {
   color: #000000;
   font-weight: 700;
+  display: table;
+}
+
+.map__container {
+  position: relative;
 }

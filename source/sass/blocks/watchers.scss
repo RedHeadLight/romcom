@@ -1,10 +1,14 @@
+.watchers {
+  background-color: #D0D0D0;
+}
+
 .watchers__container {
-    background-color: #D0D0D0;
     gap: 60px;
    display: flex;
     padding: 40px;
     justify-content: space-between;
     align-items: center;
+    color: #000000;
 
     @media (max-width: $portrait) {
       display: flex;
