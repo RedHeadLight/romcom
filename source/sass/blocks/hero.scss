@@ -2,34 +2,15 @@
   background-color: #36454F;
 }
 
-.hero__container {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    position: relative;
-    padding-bottom: 120px;
-}
-
-.hero__container img {
+.hero__logo-text {
   width: 200px;
   height: auto;
-  order: 2;
-  margin: 0 auto;
+  position: absolute;
+  z-index: 1;
 }
 
-.hero__tagline {
-  width: 232px;
-  order: 0;
-  position: absolute;
-  top: 172px;
-  left: 300px;
-
-  @media (max-width: $portrait) {
-  top: 245px;
-  margin-left: auto;
-margin-right: auto;
-left: 0;
-right: 0;
-text-align: center;
-  }
+.hero__logo {
+  z-index: 0;
+  width: 200px;
+  height: auto;
 }

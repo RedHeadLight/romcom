@@ -1,0 +1,202 @@
+@media (orientation: landscape) {
+  .container {
+    padding: 40px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    gap: 60px;
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hero__container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 40px 40px 200px 40px;
+  }
+
+  .privacy__container {
+    display: grid;
+    grid-template-columns: 30% 35% 30%;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about__wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+  }
+
+  .about__texts {
+    text-align: left;
+  }
+
+  .hero__tagline {
+    width: 232px;
+    order: 0;
+    position: absolute;
+    top: 172px;
+    left: 300px;
+  }
+
+  .libretto__texts {
+    width: 70%;
+  }
+
+  .watchers__texts {
+    width: 50%;
+  }
+
+  .form__text {
+    display: grid;
+    gap: 10px;
+  }
+
+  .form__button {
+    border: none;
+    background-color: #808080;
+    border-radius: 8px;
+    height: 50px;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+
+  .message__wrapper {
+    display: grid;
+      justify-items: baseline;
+      width: 140%;
+  }
+
+  .form__fields {
+    font-size: 18px;
+    color: #FFFFFF;
+    display: flex;
+    gap: 40px;
+  }
+
+  .privacy__top-icon, .privacy__back-icon {
+    width: 300px;
+    height: 300px;
+  }
+
+  .icons {
+    width: 75%;
+  }
+
+  .top-icon--right {
+    position: absolute;
+    right: 85px;
+    top: 25px;
+    width: 223px;
+    height: 223px;
+  }
+
+  .top-icon--left {
+    position: absolute;
+    left: 27px;
+    top: 40px;
+    width: 223px;
+    height: 223px;
+  }
+}
+
+@media (orientation: portrait) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+  }
+
+  .about__wrapper {
+    display: grid;
+    gap: 70px;
+  }
+
+  .about__texts {
+    text-align: center;
+  }
+
+
+  .hero__container {
+    padding: 40px;
+  }
+
+  .hero__tagline {
+  position: static;
+  text-align: center;
+  }
+
+  .libretto__texts {
+    text-align: center;
+    width: 100%;
+  }
+
+  .watchers__texts {
+    width: 70%;
+    text-align: center;
+  }
+
+  .privacy__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .privacy__container p {
+    width: 60%;
+    text-align: center;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .form__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .form__button {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .message__wrapper {
+    justify-items: center;
+  }
+
+  .form__fields {
+    display: grid;
+    gap: 20px;
+  }
+
+  .top-icon--right {
+    position: absolute;
+    left: 31px;
+    top: 24px;
+    width: 223px;
+    height: 223px;
+  }
+
+  .top-icon--left {
+    position: absolute;
+    left: 31px;
+    top: 24px;
+    width: 223px;
+    height: 223px;
+  }
+}

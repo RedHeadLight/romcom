@@ -1,43 +1,11 @@
 .about {
   background-color: #D0D0D0;
-}
-
-.about__container {
-    text-align: center;
-    color: #000000;
-    padding: 10px 40px;
+  padding-top: 40px;
 }
 
 .about__heading {
   font-size: 20px;
   margin-bottom: 40px;
-}
-
-.about__wrapper img {
-  width: 300px;
-  height: 300px;
-
-  @media (max-width: $mini) {
-    width: 200px;
-    height: 200px;
-  }
-}
-
-.about__wrapper {
-  display: flex;
-    justify-content: center;
-    gap: 80px;
-    align-items: center;
-
-    @media (max-width: $portrait) {
-      display: flow-root;
-    }
-}
-
-.about__texts {
-  text-align: left;
-
-  @media (max-width: $portrait) {
-    text-align: center;
-  }
+  color: #FFFFFF;
+  text-align: center;
 }

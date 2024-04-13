@@ -2,18 +2,6 @@
   background-color: #36454F;
 }
 
-.form__fields {
-    font-size: 18px;
-    color: #FFFFFF;
-    display: flex;
-    gap: 40px;
-
-    @media (max-width: $portrait) {
-      display: grid;
-      gap: 20px;
-    }
-}
-
 .form__container {
     padding: 70px;
     text-align: center;
@@ -48,51 +36,4 @@
 .form__user-email input {
   border-radius: 8px;
   border-bottom: #DCDCDC;
-}
-
-.form__button {
-    border: none;
-    background-color: #808080;
-    border-radius: 8px;
-    height: 50px;
-    color: #FFFFFF;
-    cursor: pointer;
-
-    @media (max-width: 542px) {
-      margin: 0 auto;
-      width: 100%;
-    }
-
-
-}
-
-.form__text {
-    display: grid;
-    gap: 10px;
-
-    @media (max-width: $portrait) {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      align-items: center;
-    }
-}
-
-.form__wrapper {
-
-  @media (max-width: $portrait) {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-}
-
-.message__wrapper {
-  display: grid;
-    justify-items: baseline;
-    width: 140%;
-
-    @media (max-width: $portrait) {
-      justify-items: center;
-    }
 }
