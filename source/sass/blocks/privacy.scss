@@ -3,14 +3,18 @@
 }
 
 .privacy__back-icon {
-  width: 223px;
-  height: 223px;
+  width: 80%;
+  height: 80%;
 }
 
 .privacy__top-icon {
   position: absolute;
-  left: 0;
-  top: 7px;
-  width: 223px;
-  height: 223px;
+  left: 14%;
+  top: 7%;
+  width: 73%;
+  height: 91%;
+}
+
+.privacy__texts p {
+  margin: 0 auto;
 }
